@@ -1,0 +1,14 @@
+{
+  "name": "fanout-exchange-demo",
+  "version": "1.0.0",
+  "description": "Educational demo of a RabbitMQ Fanout Exchange for an e-commerce order checkout system",
+  "scripts": {
+    "publish": "node publisher.js",
+    "inventory": "node inventory-consumer.js",
+    "invoicing": "node invoicing-consumer.js",
+    "shipping": "node shipping-consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}

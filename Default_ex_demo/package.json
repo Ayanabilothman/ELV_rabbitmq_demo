@@ -1,0 +1,14 @@
+{
+  "name": "rabbitmq-image-crop-workqueue-demo",
+  "version": "1.0.0",
+  "description": "Educational demo: RabbitMQ Work Queue / competing consumers for an image-cropping background job system.",
+  "private": true,
+  "scripts": {
+    "produce": "node producer.js",
+    "worker": "node worker.js",
+    "workers": "node workers.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}

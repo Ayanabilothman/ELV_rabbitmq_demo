@@ -1,0 +1,14 @@
+{
+  "name": "notification-gateway-direct-exchange-demo",
+  "version": "1.0.0",
+  "description": "Minimal demo of RabbitMQ Direct Exchange routing for SMS and Email notifications",
+  "private": true,
+  "scripts": {
+    "sms-worker": "node sms-worker.js",
+    "email-worker": "node email-worker.js",
+    "send": "node send.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
