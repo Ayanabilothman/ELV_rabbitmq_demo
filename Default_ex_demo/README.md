@@ -73,3 +73,15 @@ Example (order and split will vary):
 [worker 1] received: profile.png
 ...
 ```
+
+
+# License
+
+Copyright © 2026 Aya Nabil Othman. All rights reserved.
+
+This repository is provided for educational and demonstration purposes only.
+
+You may view, clone, and run the code for personal learning.
+
+You may not copy, redistribute, republish, sublicense, or use this code or substantial portions of it in commercial products, paid courses, tutorials, training programs, workshops, or other paid content without prior written permission.
+
